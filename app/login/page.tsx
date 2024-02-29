@@ -78,8 +78,8 @@ const Login = () => {
     getData();
   }, []);
   return (
-    <main className="flex w-full h-[calc(100vh-15px)] max-h-dvh">
-      <div className="w-2/5 p-8 h-full bg-[#edeffb]">
+    <main className="flex w-full min-h-screen">
+      <div className="w-2/5 p-8 bg-[#edeffb]">
         <CashBookLogo />
         <div className="h-full w-full flex justify-center">
           <div className="flex flex-col gap-8 items-center pt-24">

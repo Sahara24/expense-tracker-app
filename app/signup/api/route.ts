@@ -42,7 +42,6 @@ export async function POST(req: Request) {
 
     return new NextResponse(data, {
       status: 200,
-      headers: { "Set-Cookie": `user_logged_in=${true}` },
     });
   } catch (err) {
     // Handle errors
